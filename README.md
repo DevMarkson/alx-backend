@@ -12,3 +12,7 @@ This Python project focuses on implementing pagination functionalities for a dat
 3. **Hypermedia Pagination**: Enhance the `Server` class by adding the `get_hyper` method. This method extends the pagination functionality by providing additional hypermedia information such as the current page size, current page number, next and previous pages, and the total number of pages in the dataset.
 
 4. **Deletion-Resilient Hypermedia Pagination**: Build on the previous implementations and introduce the `get_hyper_index` method within the `Server` class. This method handles potential deletions in the dataset between different pagination queries, ensuring the user does not miss items when changing pages.
+
+3. ## 0x03-queuing_system_in_js**
+
+This repository contains a set of tasks that involve setting up and using a queuing system based on Redis and Kue. The tasks are designed to help you understand and implement various aspects of queuing systems, job processing, and Redis interactions using JavaScript.
